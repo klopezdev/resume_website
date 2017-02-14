@@ -70,11 +70,12 @@ h6 {
         font-size: 3em;
     }
 
-    ul.intro-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
+    /*Turn on to make buttons stack centered*/
+    /*ul.intro-social-buttons > li {*/
+        /*display: block;*/
+        /*margin-bottom: 20px;*/
+        /*padding: 0;*/
+    /*}*/
 
     ul.intro-social-buttons > li:last-child {
         margin-bottom: 0;
@@ -142,22 +143,25 @@ h6 {
 }
 
 @media(max-width:767px) {
-    .resources {
-        text-align: center;
-    }
-}
-
-@media(max-width:767px) {
     .banner h2 {
         margin: 0;
         text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
         font-size: 3em;
     }
 
+    .resources {
+        text-align: center;
+    }
+
+    /*Turn on to make buttons stack centered*/
     ul.banner-social-buttons > li {
         display: block;
         margin-bottom: 20px;
         padding: 0;
+    }
+
+    ul.banner-social-buttons > li > a {
+        width: 160px;
     }
 
     ul.banner-social-buttons > li:last-child {
